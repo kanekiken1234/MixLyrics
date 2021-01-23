@@ -1,0 +1,45 @@
+.lyrics-content{
+    margin: 25px 100px;
+}
+
+.lyrics-container{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.lyrics-container img{
+    width: 50%;
+    height: 'auto';
+    object-fit: cover;   
+}
+
+.search-query{
+    font-family: "Poppins";
+    font-size: x-large;
+}
+
+.lyrics{
+    margin-top: 50px;
+    font-family: "Libre Baskerville";
+    width: 300px;
+    font-size: medium;
+    line-height: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .lyrics-content{
+        margin: 20px 25px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .lyrics-container{
+        display: block;
+    }
+    .lyrics-container img{
+        width: 100%;
+        height: 'auto';
+        object-fit: cover;   
+    }
+}
